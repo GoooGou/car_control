@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 自定义样式 */
+.card {
+  @apply bg-card shadow-sm rounded-md p-4 border-wangkan-border border md:min-h-[11.0625rem] min-h-96;
+}
